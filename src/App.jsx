@@ -1,4 +1,8 @@
+
+import Button from "./Button"
+
 import Cart from "./Cart"
+
 import Footer from "./components/Footer"
 import Header from "./components/Header"
 import MainComponent from "./components/MainComponent"
@@ -16,6 +20,9 @@ function App (){
 
   return <div>
     <Header heading = "Welcome to my website"/>
+    <br />
+    <Button />
+    <br />
     <UserList />
     <MainComponent />
     <Greeting />
