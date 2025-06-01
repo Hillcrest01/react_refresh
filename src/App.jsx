@@ -1,4 +1,5 @@
 
+import ArrayMovies from "./arrayMovies"
 import Button from "./Button"
 
 import Cart from "./Cart"
@@ -8,6 +9,7 @@ import Header from "./components/Header"
 import MainComponent from "./components/MainComponent"
 import UserList from "./components/UserList"
 import Greeting from "./Greeting"
+import Movies from "./Movies"
 
 //for studying ternary operations
 const ValidPassword = () => <h1>Valid Password</h1>
@@ -28,7 +30,9 @@ function App (){
     <Greeting />
     <Cart />
     <Footer />
+    <Movies />
     <Password isValid={true} />
+    <ArrayMovies />
   </div>
 
 }
